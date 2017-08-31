@@ -69,16 +69,37 @@ z-index: 10;
 
 }
 
-.lower_text {
+#by {
+	color: #396B58;
+}
+
+.poem {
 	margin: auto;
 	padding-top: 869px;
 	padding-bottom: 100px;
 	max-width: 40%;
+	text-align: center;
 }
 
-.lower_text h1, p {
-	color: black;
+.poem h1, h4, p {
+	color: #003622;
 	font-family: sans-serif;
-	text-align: center;
 	overflow: auto;
+}
+
+#bold {
+	font-weight: bold;
+
+}
+
+#italic {
+	font-style: italic;
+	color: #4c7264;
+}
+
+.poem p {
+	text-align: left;
+	white-space: pre;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
