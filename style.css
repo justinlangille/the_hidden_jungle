@@ -103,3 +103,17 @@ z-index: 10;
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
+
+/*Swaying animation*/
+
+.swingimg {
+    -moz-animation: 3s ease 0s normal none infinite swing;
+    -moz-transform-origin: center left;
+    -webkit-animation:swing 3s infinite ease-in-out;
+    -webkit-transform-origin:left;
+}
+@-moz-keyframes swing{
+    0%{-moz-transform:rotate(-3deg)}
+    50%{-moz-transform:rotate(3deg)}
+    100%{-moz-transform:rotate(-3deg)}
+}

@@ -7,11 +7,11 @@
 <!-- CSS stylesheets -->
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="normalize.css">
-	<link rel="stylesheet" type="text/css" href="animate.css">
 
 <!-- JQuery stylesheets -->
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="jquery.scrollstop.js"></script>
 
 
 </head>
@@ -20,7 +20,7 @@
 <div class="bg">
 
 	<div class="left">
-		<img id="imga" class="answingl" src="images/leaf_left_bottom.png">
+		<img id="imga" class="swingimg" src="images/leaf_left_bottom.png">
 		<img id="imgb" src="images/sticks_left.png">
 		<img id="imgc" src="images/hills_left.png">	
 		<img id="imgd" class="answinglt" src="images/leaf_fan_left.png">
@@ -116,19 +116,34 @@ Then hear the Call: <span id="italic">"Good rest to all
 
 	<script>
 
-	$(window).scroll(function() {
-		$('.answingl').animate({"left": "-=20px"}, "slow");
-		$('.answingl').animate({"left": "+=20px"}, "slow");
 
-		$('.answinglt').animate({"left": "-=10px"}, "slow");
-		$('.answinglt').animate({"left": "+=10px"}, "slow");
+// $(window).on("scrollstart", function() {
 
-		$('.answingr').animate({"right": "-=20px"}, "slow");
-		$('.answingr').animate({"right": "+=20px"}, "slow");
+//     	$('.answingl').animate({"left": "-=20px"}, "slow");
+// 		$('.answingl').animate({"left": "+=20px"}, "slow");
 
-		$('.answingrt').animate({"right": "-=10px"}, "slow");
-		$('.answingrt').animate({"right": "+=10px"}, "slow");
-	});
+// 		$('.answinglt').animate({"left": "-=10px"}, "slow");
+// 		$('.answinglt').animate({"left": "+=10px"}, "slow");
+
+// 		$('.answingr').animate({"right": "-=20px"}, "slow");
+// 		$('.answingr').animate({"right": "+=20px"}, "slow");
+
+// 		$('.answingrt').animate({"right": "-=10px"}, "slow");
+// 		$('.answingrt').animate({"right": "+=10px"}, "slow");
+
+//   });
+
+//   $(window).on("scrollstop", function() {
+//    		$('.answingl').stop( true );
+//    		$('.answinglt').stop( true );
+// 		$('.answingr').stop( true );
+// 		$('.answingrt').stop( true );
+
+//   });
+
+// $(window).scroll(function () {
+// 	$(".poem").slideDown;
+// });
 
 
 	</script>
