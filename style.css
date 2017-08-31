@@ -1,0 +1,84 @@
+/* images */
+
+.bg {
+	background-color: #00BD77;
+	height: 769px;
+	width: 100%;
+	top: 0px;
+	position: absolute;
+}
+
+.left img{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.right img{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+#imga
+{
+z-index: 70;
+}
+
+#imgb
+{
+z-index: 60;
+}
+
+#imgc
+{
+z-index: 50;
+}
+
+#imgd
+{
+z-index: 40;
+}
+
+#imge
+{
+z-index: 30;
+}
+
+#imgf
+{
+z-index: 20;
+}
+
+#imgg
+{
+z-index: 10;
+}
+
+/* header text*/
+
+.header_text {
+	margin: 0;
+	padding-top: 200px;
+}
+
+.header_text h1, p {
+	color: white;
+	font-family: sans-serif;
+	text-align: center;
+
+}
+
+.lower_text {
+	margin: auto;
+	padding-top: 869px;
+	padding-bottom: 100px;
+	max-width: 40%;
+}
+
+.lower_text h1, p {
+	color: black;
+	font-family: sans-serif;
+	text-align: center;
+	overflow: auto;
+}
