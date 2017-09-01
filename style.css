@@ -1,3 +1,5 @@
+/*Images and Animation*/
+
 /*Front Leaf Left*/
 
 .sleft {
@@ -79,6 +81,7 @@
     100%{-webkit-transform:rotate(-1deg)}
 }
 
+/*Image Stacking*/
 
 #imga
 {
@@ -115,6 +118,8 @@ z-index: 20;
 z-index: 10;
 }
 
+/*Header And Alignment*/
+
 html, body {
     max-width: 100%;
     overflow-x: hidden;
@@ -139,6 +144,8 @@ html, body {
   top: 0px;
   right: -10px;
 }
+
+/*Poem Body*/
 
 #by {
 	color: #396B58;
@@ -168,6 +175,12 @@ html, body {
 	color: #4c7264;
 }
 
+#bolditalic {
+	font-weight: bold;
+	font-style: italic;
+	color: #4c7264;
+}
+
 .poem p {
 	text-align: left;
 	white-space: pre;
@@ -177,4 +190,33 @@ html, body {
 
 .hidden {
 	opacity: 0;
+}
+
+/*Footer*/
+
+nav {
+	padding-bottom: 20px;
+}
+
+ul {
+	list-style: none;
+	text-align: center;
+}
+
+li {
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+a {
+	text-decoration: none;
+	font-family: sans-serif;
+	color: #7aa696;
+	font-size: 0.9em;
+}
+
+a:hover {
+	color: #19a571;
+	font-style: italic;
 }
