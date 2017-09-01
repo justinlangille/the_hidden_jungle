@@ -224,7 +224,7 @@ a:hover {
 /*Mobile*/
 
 .bg-mobile {
-	height: 750px;
+	height: 500px;
 	width: 100%;
 	top: 0px;
 	position: absolute;
@@ -233,12 +233,12 @@ a:hover {
 /*Screen Sizing*/
 
 /*//medium+ screen sizes*/
-    @media all and (min-width: 480px) {
+@media all and (min-width: 900px) {
     .desktop {display:block;}
     .mobile {display:none;}
 }
 
-@media all and (max-width: 479px) {
+@media all and (max-width: 899px) {
     .desktop {display:none;}
     .mobile {display:block;}
 }
