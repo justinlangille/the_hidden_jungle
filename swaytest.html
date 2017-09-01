@@ -1,0 +1,235 @@
+
+
+<div class="bg">
+
+	<div class="left">
+		<img id="imga" class="sleft" src="images/leaf_left_bottom.png">
+		<img id="imgb" src="images/sticks_left.png">
+		<img id="imgc" src="images/hills_left.png">	
+		<img id="imgd" class="answinglt" src="images/leaf_fan_left.png">
+		<img id="imge" src="images/leaf_back_leaf.png">
+	</div>
+
+<!-- 	<div class="header_text">
+		<h1>Morning Song in the Jungle</h1>
+		<h4>by Rudyard Kipling</h4>
+	<div> -->
+	
+	<div class="right">
+		<img id="imga" class="answingr" src="images/tealeaf_bottom.png">
+		<img id="imgb" class="answingrt" src="images/tealeaf_top.png">
+		<img id="imgc" class="answingrt" src="images/leaf_right_btm_bck.png">
+		<img id="imgd" class="answingr" src="images/leaf_right_btm_bck2.png">
+		<img id="imge" src="images/sticks_right.png">
+		<img id="imgf" src="images/hills_right.png">
+		<img id="imgg" src="images/leaf_back_right_top.png">
+	</div>
+
+
+</div>
+
+<div class="poem">
+	<h1>Morning Song in the Jungle</h1>
+	<h4 id="by">by Rudyard Kipling</h4>
+
+	<div style="text-align: center;">
+    <div style="display: inline-block; text-align: left">
+	
+	<p>
+<span id="bold">ONE</span> moment past our bodies cast
+  No shadow on the plain;
+Now clear and black they stride our track,
+  And we run home again. 
+	</p>
+
+	<p>
+In morning-hush, each rock and bush 
+  Stands hard, and high, and raw:
+Then give the Call: <span id="italic">"Good rest to all
+  That keep the Jungle Law!"</span>
+	</p>
+
+	<p>
+Now horn and pelt our peoples melt
+  In covert to abide;
+Now, crouched and still, to cave and hill
+  Our Jungle Barons glide.
+	</p>
+
+	<p>
+Now, stark and plain, Man's oxen strain,
+  That draw the new-yoked plough;
+Now, stripped and dread, the dawn is red
+  Above the lit talao.
+	</p>
+
+	<p>
+Ho! Get to lair! The sun's aflare
+  Behind the breathing grass:
+And creaking through the young bamboo
+  The warning whispers pass.
+	</p>
+
+	<p>
+By day made strange, the woods we range
+  With blinking eyes we scan;
+While down the skies the wild duck cries:
+  <span id="italic">"The Day--the Day to Man!"</span>
+	</p>
+
+	<p>
+The dew is dried that drenched our hide,
+  Or washed about our way;
+And where we drank, the puddled bank
+  Is crisping into clay.
+	</p>
+
+	<p>
+The traitor Dark gives up each mark
+  Of stretched or hooded claw:
+Then hear the Call: <span id="italic">"Good rest to all
+  That keep the Jungle Law!".</span>
+	</p>
+
+ 	</div>
+ 	</div>
+
+
+</div>
+
+<style>
+
+.sleft {
+	left: -15px;
+    -moz-animation: 3s ease 0s normal none infinite swing;
+    -moz-transform-origin: bottom left;
+    -webkit-animation:swing 3s infinite ease-in-out;
+    -webkit-transform-origin:bottom left;
+}
+@-moz-keyframes swing{
+    0%{-moz-transform:rotate(-1deg)}
+    50%{-moz-transform:rotate(-1deg)}
+    100%{-moz-transform:rotate(-1deg)}
+}
+@-webkit-keyframes swing{
+    0%{-webkit-transform:rotate(-1deg)}
+    50%{-webkit-transform:rotate(1deg)}
+    100%{-webkit-transform:rotate(-1deg)}
+}
+
+.sright {
+	right: -15px;
+    -moz-animation: 3s ease 0s normal none infinite swing;
+    -moz-transform-origin: top right;
+    -webkit-animation:swing 3s infinite ease-in-out;
+    -webkit-transform-origin:right;
+}
+@-moz-keyframes swing{
+    0%{-moz-transform:rotate(-1deg)}
+    50%{-moz-transform:rotate(1deg)}
+    100%{-moz-transform:rotate(-1deg)}
+}
+@-webkit-keyframes swing{
+    0%{-webkit-transform:rotate(-1deg)}
+    50%{-webkit-transform:rotate(1deg)}
+    100%{-webkit-transform:rotate(-1deg)}
+}
+
+
+#imga
+{
+z-index: 70;
+}
+
+#imgb
+{
+z-index: 60;
+}
+
+#imgc
+{
+z-index: 50;
+}
+
+#imgd
+{
+z-index: 40;
+}
+
+#imge
+{
+z-index: 30;
+}
+
+#imgf
+{
+z-index: 20;
+}
+
+#imgg
+{
+z-index: 10;
+}
+
+.left {
+  left: -15px;
+  top: 0px;
+  position: absolute;
+}
+
+.right img{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.bg {
+	background-color: #00BD77;
+	height: 769px;
+	width: 100%;
+	top: 0px;
+	position: absolute;
+}
+
+.left img{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+#by {
+	color: #396B58;
+}
+
+.poem {
+	margin: auto;
+	padding-top: 869px;
+	padding-bottom: 100px;
+	max-width: 40%;
+	text-align: center;
+}
+
+.poem h1, h4, p {
+	color: #003622;
+	font-family: sans-serif;
+	overflow: auto;
+}
+
+#bold {
+	font-weight: bold;
+
+}
+
+#italic {
+	font-style: italic;
+	color: #4c7264;
+}
+
+.poem p {
+	text-align: left;
+	white-space: pre;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+</style>
