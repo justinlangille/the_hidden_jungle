@@ -220,3 +220,12 @@ a:hover {
 	color: #19a571;
 	font-style: italic;
 }
+
+/*Mobile*/
+
+@media screen and (max-width: 600px) {
+  .wrap {
+    visibility: hidden;
+    display: none;
+  }
+}
