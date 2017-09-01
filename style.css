@@ -159,8 +159,9 @@ html, body {
 
 .poem {
 	margin: auto;
+	padding-top: 10%;
 	padding-bottom: 100px;
-	max-width: 40%;
+	max-width: 70%;
 	text-align: center;
 }
 
@@ -230,6 +231,6 @@ a:hover {
 
 @media screen and (max-width: 600px) {
 	.poem {
-		padding-top: 1000px;
+		padding-top: 30%;
 	}
 }
