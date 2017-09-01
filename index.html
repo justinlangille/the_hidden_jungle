@@ -42,67 +42,69 @@
 
 </div>
 
+</div>
+
 <div class="poem">
 	<h1>Morning Song in the Jungle</h1>
 	<h4 id="by">by Rudyard Kipling</h4>
 
-	<div style="text-align: center;">
+	<div id="poembody" style="text-align: center;">
     <div style="display: inline-block; text-align: left">
 	
-	<p>
+	<p class="hidden">
 <span id="bold">ONE</span> moment past our bodies cast
   No shadow on the plain;
 Now clear and black they stride our track,
   And we run home again. 
 	</p>
 
-	<p>
+	<p class="hidden">
 In morning-hush, each rock and bush 
   Stands hard, and high, and raw:
 Then give the Call: <span id="italic">"Good rest to all
   That keep the Jungle Law!"</span>
 	</p>
 
-	<p>
+	<p class="hidden">
 Now horn and pelt our peoples melt
   In covert to abide;
 Now, crouched and still, to cave and hill
   Our Jungle Barons glide.
 	</p>
 
-	<p>
+	<p class="hidden">
 Now, stark and plain, Man's oxen strain,
   That draw the new-yoked plough;
 Now, stripped and dread, the dawn is red
   Above the lit talao.
 	</p>
 
-	<p>
+	<p class="hidden">
 Ho! Get to lair! The sun's aflare
   Behind the breathing grass:
 And creaking through the young bamboo
   The warning whispers pass.
 	</p>
 
-	<p>
+	<p class="hidden">
 By day made strange, the woods we range
   With blinking eyes we scan;
 While down the skies the wild duck cries:
   <span id="italic">"The Day--the Day to Man!"</span>
 	</p>
 
-	<p>
+	<p class="hidden">
 The dew is dried that drenched our hide,
   Or washed about our way;
 And where we drank, the puddled bank
   Is crisping into clay.
 	</p>
 
-	<p>
+	<p class="hidden">
 The traitor Dark gives up each mark
   Of stretched or hooded claw:
-Then hear the Call: <span id="italic">"Good rest to all
-  That keep the Jungle Law!".</span>
+Then hear the Call: <span id="bold">"Good rest to all
+  That keep the Jungle Law!"</span>
 	</p>
 
  	</div>
@@ -111,11 +113,31 @@ Then hear the Call: <span id="italic">"Good rest to all
 
 </div>
 
-</div>
-
-	<script>
 
 
-	</script>
+<script>
+
+$(function(){
+  $('#poembody').fadeIn('slow');
+});
+
+$(document).ready(function() {
+    $(window).scroll( function(){
+        $('.hidden').each( function(i){
+            
+            var bottom_of_object = $(this).position().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            if( bottom_of_window > bottom_of_object ){
+                
+                $(this).animate({'opacity':'1'},2000);
+                    
+            }
+        }); 
+    });
+});
+
+
+</script>
 
 </body>

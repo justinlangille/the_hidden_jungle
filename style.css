@@ -65,7 +65,7 @@
 	right: -15px;
     -moz-animation: 3s ease 0s normal none infinite swing;
     -moz-transform-origin: bottom right;
-    -webkit-animation:swing 4s infinite ease-in-out;
+    -webkit-animation:swing 6s infinite ease-in-out;
     -webkit-transform-origin: bottom right;
 }
 @-moz-keyframes swing{
@@ -173,4 +173,8 @@ html, body {
 	white-space: pre;
 	margin-top: 0px;
 	margin-bottom: 0px;
+}
+
+.hidden {
+	opacity: 0;
 }
