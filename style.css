@@ -223,9 +223,22 @@ a:hover {
 
 /*Mobile*/
 
-@media screen and (max-width: 600px) {
-  .wrap {
-    visibility: hidden;
-    display: none;
-  }
+.bg-mobile {
+	height: 750px;
+	width: 100%;
+	top: 0px;
+	position: absolute;
+}
+
+/*Screen Sizing*/
+
+/*//medium+ screen sizes*/
+    @media all and (min-width: 480px) {
+    .desktop {display:block;}
+    .mobile {display:none;}
+}
+
+@media all and (max-width: 479px) {
+    .desktop {display:none;}
+    .mobile {display:block;}
 }
