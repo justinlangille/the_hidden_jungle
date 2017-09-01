@@ -223,17 +223,18 @@ a:hover {
 
 /*Mobile*/
 
-.bg-mobile {
+/*.bg-mobile {
 	height: 500px;
 	width: 100%;
 	top: 0px;
 	position: absolute;
-}
+}*/
 
 /*Screen Sizing*/
 
 /*//medium+ screen sizes*/
-@media all and (min-width: 900px) {
+
+/*@media all and (min-width: 900px) {
     .desktop {display:block;}
     .mobile {display:none;}
 }
@@ -241,4 +242,10 @@ a:hover {
 @media all and (max-width: 899px) {
     .desktop {display:none;}
     .mobile {display:block;}
+}*/
+
+@media screen and (max-width: 600px) {
+	.poem {
+		padding-top: 250px;
+	}
 }
