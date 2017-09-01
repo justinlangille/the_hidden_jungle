@@ -145,6 +145,12 @@ html, body {
   right: -10px;
 }
 
+#wrap {
+	clear: both;
+
+}
+
+
 /*Poem Body*/
 
 #by {
@@ -154,7 +160,7 @@ html, body {
 .poem {
 	margin: auto;
 	/*padding-top: 869px;*/
-	padding-top: 60%;
+	padding-top: 20%;
 	padding-bottom: 100px;
 	max-width: 40%;
 	text-align: center;
@@ -223,27 +229,6 @@ a:hover {
 }
 
 /*Mobile*/
-
-/*.bg-mobile {
-	height: 500px;
-	width: 100%;
-	top: 0px;
-	position: absolute;
-}*/
-
-/*Screen Sizing*/
-
-/*//medium+ screen sizes*/
-
-/*@media all and (min-width: 900px) {
-    .desktop {display:block;}
-    .mobile {display:none;}
-}
-
-@media all and (max-width: 899px) {
-    .desktop {display:none;}
-    .mobile {display:block;}
-}*/
 
 @media screen and (max-width: 600px) {
 	.poem {
